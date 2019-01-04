@@ -1,0 +1,14 @@
+{
+    "presets":[
+        ["env", {
+            "targets": {
+                "browser":[
+                    "last 5 versions",
+                    "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
+//we mention which target browser env we want babel to take care 
+//of
